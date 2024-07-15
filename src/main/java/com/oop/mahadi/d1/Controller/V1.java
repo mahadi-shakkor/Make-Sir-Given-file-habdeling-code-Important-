@@ -116,7 +116,7 @@ ArrayList<Person> arrP=new ArrayList<>();
             FileOutputStream fos = null;
             ObjectOutputStream oos = null;
 
-            if(f.exists()) {
+            if( f.exists()) {
                 fos = new FileOutputStream(f, true);
                 oos = new AppendableObjectOutputStream(fos);
                 //fos = new FileOutputStream(f);
